@@ -1,0 +1,86 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #aeddf7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+i.fa {
+    font-size: 44px;
+}
+
+#fb {
+    color: #006fff;
+    text-shadow: 5px 5px 5px #686868;
+}
+
+#ig {
+    color: #e426c7;
+    text-shadow: 5px 5px 5px #686868;
+}
+
+#tw {
+    color: #00acff;
+    text-shadow: 5px 5px 5px #686868;
+}
+
+#gt {
+    color: #1d1e1e;
+    text-shadow: 5px 5px 5px #686868;
+}
+
+#yt {
+    color: #ed1515;
+    text-shadow: 5px 5px 5px #686868;
+}
+
+.btn.fb-btn {
+    box-shadow: 9px 7px 16px 0px rgba(67, 70, 71, 0.53);
+}
+
+.btn.fb-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 13px 15px 0px rgb(49, 73, 255);
+}
+
+.btn.ig-btn {
+    box-shadow: 9px 7px 16px 0px rgba(85, 82, 86, 0.53);
+}
+
+.btn.ig-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 13px 15px 0px rgba(213, 29, 255, 0.65);
+}
+
+.btn.tw-btn {
+    box-shadow: 9px 7px 16px 0px rgba(67, 70, 71, 0.53);
+}
+
+.btn.tw-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 13px 15px 0px rgba(7, 247, 235, 0.65);
+}
